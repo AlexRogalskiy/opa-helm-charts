@@ -10,12 +10,12 @@ assignees: ''
 <!-- Thanks for filing an issue!
 Before hitting the button, please answer these questions.
 It's helpful to search the existing GitHub issues first.
-It's likely that another user has already reported the issue you're facing, or it's a known issue that we're already aware o. 
+Likely, another user has already reported the issue you're facing, or it's a known issue that we're already aware o.
 
 Fill in as much of the template below as you can.
 The more information we have the better we can help you.
 
-Be ready for followup questions, and please respond in a timely manner.
+Be ready for follow-up questions, and please respond promptly.
 If we can't reproduce a bug or think a feature already exists, we might close your issue.
 If we're wrong, PLEASE feel free to reopen it and explain why.
 -->
@@ -61,7 +61,7 @@ key: value
 ```
 
 ```bash
-helm install my-release {{ .GitHubOrg }}/name-of-chart --version version --values values.yaml
+helm install my-release sighupio/name-of-chart --version version --values values.yaml
 ```
 
 -->

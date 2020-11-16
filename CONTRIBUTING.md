@@ -31,7 +31,7 @@ See `git help commit`:
 1. Remember to sign off your commits as described above
 1. Submit a pull request
 
-***NOTE***: In order to make testing and merging of PRs easier, please submit changes to multiple charts in separate PRs.
+***NOTE***: To make testing and merging of PRs easier, please submit changes to multiple charts in separate PRs.
 
 ### Technical Requirements
 

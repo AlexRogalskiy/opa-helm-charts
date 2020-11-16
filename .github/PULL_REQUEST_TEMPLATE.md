@@ -2,10 +2,10 @@
 Thank you for contributing!
 Before you submit this PR we'd like to make sure you are aware of our technical requirements and best practices:
 
-* https://github.com/{{ .GitHubOrg }}/helm-charts/blob/main/CONTRIBUTING.md#technical-requirements
+* https://github.com/sighupio/opa-helm-charts/blob/main/CONTRIBUTING.md#technical-requirements
 * https://helm.sh/docs/chart_best_practices/
 
-For a quick overview across what we will look at reviewing your PR, please read our review guidelines:
+For a quick overview of what we will look at reviewing your PR, please read our review guidelines:
 
 * https://github.com/helm/charts/blob/master/REVIEW_GUIDELINES.md
 
@@ -37,5 +37,5 @@ We would like these checks to pass before we even continue reviewing your change
 
 # Checklist
 <!-- [Place an '[x]' (no spaces) in all applicable fields. Please remove unrelated fields.] -->
-- [ ] [DCO](https://github.com/{{ .GitHubOrg }}/helm-charts/blob/main/CONTRIBUTING.md#sign-off-your-work) signed
+- [ ] [DCO](https://github.com/sighupio/opa-helm-charts/blob/main/CONTRIBUTING.md#sign-off-your-work) signed
 - [ ] Chart Version bumped
