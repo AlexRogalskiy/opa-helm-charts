@@ -1,22 +1,13 @@
-# ⚠️ Repo Archive Notice
-
-As of Nov 13, 2020, charts in this repo will no longer be updated.
-For more information, see the Helm Charts [Deprecation and Archive Notice](https://github.com/helm/charts#%EF%B8%8F-deprecation-and-archive-notice), and [Update](https://helm.sh/blog/charts-repo-deprecation/).
-
 # OPA
 
 [OPA](https://www.openpolicyagent.org) is an open source general-purpose policy
 engine designed for cloud-native environments.
 
-## DEPRECATION NOTICE
-
-This chart is deprecated and no longer supported.
-
 ## Prerequisites
 
 - Kubernetes 1.9 (or newer) for validating and mutating webhook admission
   controller support.
-- Optional, cert-manager (https://docs.cert-manager.io/en/latest/)
+- Optional, cert-manager [(https://docs.cert-manager.io/en/latest/)](https://docs.cert-manager.io/en/latest/)
 
 ## Overview
 
@@ -35,7 +26,7 @@ helm install stable/opa
 ```
 
 Once installed, the OPA will download a sample bundle from
-https://www.openpolicyagent.org. The sample bundle contains a simple policy that
+[https://www.openpolicyagent.org](https://www.openpolicyagent.org). The sample bundle contains a simple policy that
 restricts the hostnames that can be specified on Ingress objects created in the
 `opa-example` namespace. You can download the bundle and inspect it yourself:
 
@@ -99,10 +90,10 @@ Reference](https://www.openpolicyagent.org/docs/configuration.html).
 | `prometheus.enabled` | Flag to expose the `/metrics` endpoint to be scraped. | `false` |
 | `serviceMonitor.enabled` | if `true`, creates a Prometheus Operator ServiceMonitor | `false` |
 | `serviceMonitor.interval` | Interval that Prometheus scrapes Envoy metrics | `15s` |
-| `serviceMonitor.namespace` | Namespace which the operated Prometheus is running in | `` |
+| `serviceMonitor.namespace` | Namespace which the operated Prometheus is running in | `""` |
 | `annotations` | Annotations to be added to the deployment template. | `{}` |
 | `bootstrapPolicies` | Bootstrap policies to be loaded during OPA startup. | `{}` |
-| `timeoutSeconds` | Timeout for a webhook call in seconds. | `` |
+| `timeoutSeconds` | Timeout for a webhook call in seconds. | `""` |
 | `securityContext` | Security context for the containers | `{enabled: false, runAsNonRoot: true, runAsUser: 1}` |
 | `deploymentStrategy` | Specify deployment spec rollout strategy | `{}` |
 | `extraArgs` | Additional arguments to be added to the opa container | `[]` |
