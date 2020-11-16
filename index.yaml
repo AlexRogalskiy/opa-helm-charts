@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  opa:
+  - apiVersion: v1
+    appVersion: 0.15.1
+    created: "2020-11-16T15:40:31.38353009Z"
+    deprecated: true
+    description: DEPRECATED - Open source, general-purpose policy engine. Enforce
+      fine-grained invariants over arbitrary Kubernetes resources.
+    digest: b59c376da9639b203b11c64371c482a42fe3664875d4abe404dd6eaa4b78d62b
+    home: https://www.openpolicyagent.org
+    icon: https://raw.githubusercontent.com/open-policy-agent/opa/master/logo/logo.png
+    keywords:
+    - opa
+    - admission control
+    - policy
+    name: opa
+    sources:
+    - https://github.com/open-policy-agent/opa
+    urls:
+    - https://github.com/sighupio/opa-helm-charts/releases/download/opa-1.15.0/opa-1.15.0.tgz
+    version: 1.15.0
+generated: "2020-11-16T15:40:31.260320749Z"
